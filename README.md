@@ -51,89 +51,63 @@ An adaptive AI-powered interview preparation platform that simulates real interv
 ## 📁 Project Structure
 
 interview-simulator/
-
-├── server/
-
-│   ├── server.js
-
-│   ├── config/
-
-│   │   └── db.js
-
-│   ├── middleware/
-
-│   │   └── authMiddleware.js
-
-│   ├── models/
-
-│   │   ├── userModel.js
-
-│   │   └── sessionModel.js
-
-│   ├── routes/
-
-│   │   ├── authRoutes.js
-
-│   │   ├── interviewRoutes.js
-
-│   │   └── voiceRoutes.js
-
-│   ├── controllers/
-
-│   │   └── interviewController.js
-
-│   ├── services/
-
-│   │   ├── aiService.js
-
-│   │   └── performanceService.js
-
-│   └── .env.example
-
 │
-
+├── server/
+│   │
+│   ├── server.js
+│   │
+│   ├── config/
+│   │   └── db.js
+│   │
+│   ├── middleware/
+│   │   └── authMiddleware.js
+│   │
+│   ├── models/
+│   │   ├── userModel.js
+│   │   └── sessionModel.js
+│   │
+│   ├── routes/
+│   │   ├── authRoutes.js
+│   │   ├── interviewRoutes.js
+│   │   └── voiceRoutes.js
+│   │
+│   ├── controllers/
+│   │   └── interviewController.js
+│   │
+│   ├── services/
+│   │   ├── aiService.js
+│   │   └── performanceService.js
+│   │
+│   └── .env.example
+│
 └── client/
+    │
+    └── src/
+        │
+        ├── App.js
+        ├── App.css
+        │
+        ├── hooks/
+        │   ├── useAuth.js
+        │   ├── useInterview.js
+        │   └── useVoiceInterview.js
+        │
+        ├── pages/
+        │   ├── AuthPage.jsx
+        │   ├── SetupPage.jsx
+        │   ├── InterviewPage.jsx
+        │   ├── ResultsPage.jsx
+        │   └── DashboardPage.jsx
+        │
+        ├── components/
+        │   ├── ScoreBadge.jsx
+        │   ├── TopicTag.jsx
+        │   └── VoiceInterviewer.jsx
+        │
+        └── utils/
+            └── api.js
 
-└── src/
-
-├── App.js
-
-├── App.css
-
-├── hooks/
-
-│   ├── useAuth.js
-
-│   ├── useInterview.js
-
-│   └── useVoiceInterview.js
-
-├── pages/
-
-│   ├── AuthPage.jsx
-
-│   ├── SetupPage.jsx
-
-│   ├── InterviewPage.jsx
-
-│   ├── ResultsPage.jsx
-
-│   └── DashboardPage.jsx
-
-├── components/
-
-│   ├── ScoreBadge.jsx
-
-│   ├── TopicTag.jsx
-
-│   └── VoiceInterviewer.jsx
-
-└── utils/
-
-└── api.js
-
----
-
+            
 ## 🚀 Quick Start
 
 ### Prerequisites
