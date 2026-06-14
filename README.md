@@ -50,7 +50,7 @@ An adaptive AI-powered interview preparation platform that simulates real interv
 
 ## 📁 Project Structure
 
-```text id="r6k2xp"
+```text 
 interview-simulator/
 │
 ├── server/
