@@ -109,8 +109,46 @@ interview-simulator/
             └── api.js
 ```
 
+## 📸 Screenshots
 
-            
+### ⚙️ Session Configuration
+![Session Configuration](screenshots/configuration-of-a-session.png)
+
+### 🎓 University Exam Setup
+![University Exam](screenshots/university-exam.png)
+
+### 🏆 Competitive Exam Mode
+![Competitive Exam](screenshots/competitive-exam.png)
+
+### 🏢 Company Interview Mode
+![Company Interview](screenshots/company-interview.png)
+
+### 🎯 Free Practice Learning Path
+![Free Practice](screenshots/free-practice.png)
+
+### 🧠 Exam Preparation Setup
+![Exam Prep](screenshots/for-exam-prep.png)
+
+### 🎤 Open Ended Questions with Voice Mode
+![Voice Interview](screenshots/open-ended-questions-with-voice-enabled.png)
+
+### 💬 Ask Interviewer Feature
+![Ask Interviewer](screenshots/ask-interviewer.png)
+
+### 📊 Dashboard & Analytics
+![Dashboard](screenshots/dashboard.png)
+
+### 📝 MCQ Interview Mode
+![MCQs](screenshots/mcqs.png)
+
+### ✍️ Fill in the Blank Questions
+![Fill in the Blanks](screenshots/fill-in-the-blanks.png)
+
+### ❌ AI Evaluation & Feedback
+![Incorrect Answer](screenshots/incorrect-answer.png)
+
+
+
 ## 🚀 Quick Start
 
 ### Prerequisites
