@@ -303,11 +303,6 @@ All session and history routes require `Authorization: Bearer <token>` header.
 | Backend | Render |
 | Database | MongoDB Atlas |
 
-Set these environment variables on Vercel:
-REACT_APP_API_URL=https://your-backend.render.com/api
-
-Set all `server/.env` variables in Render's environment settings.
-
 ---
 
 ## 🛡️ Security
